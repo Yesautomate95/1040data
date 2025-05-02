@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className=" shadow-md  ">
       <div className="flex justify-between items-center  py-4 px-6 mx-auto">
         <Link className="font-bold" href="/">
-          <img src="/logo.jpeg" className="h-10" />
+          <img src="/logo.jpeg" className="h-7" />
         </Link>
         <Button onClick={handleLogout} variant={"default"}>
           Sign out
