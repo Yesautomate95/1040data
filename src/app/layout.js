@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "DocuData",
+  title: "1040Data",
   description: "",
   icons: {
     icon: "/favicon.jpeg",
