@@ -6,7 +6,7 @@ import TestEnvironmentTab from "@/components/services/wages-ocr/TestEnvironmentT
 const PANCardOCR = () => {
   return (
     <div className="p-8 w-full ">
-      <div className="text-2xl font-bold mb-4">Wages OCR </div>
+      <div className="text-2xl font-bold mb-4">Wages (Form W2) </div>
 
       <Tabs defaultValue="description">
         <TabsList>

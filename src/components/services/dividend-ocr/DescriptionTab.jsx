@@ -5,8 +5,8 @@ const DescriptionTab = () => {
     <div className="mt-6">
       <div className="mb-3">
         <p>
-          The <strong>Dividend OCR</strong> service is an advanced solution
-          designed to
+          The <strong>Dividend (Form 1099-DIV)</strong> service is an advanced
+          solution designed to {""}
           <strong>
             verify and extract data from dividend statements and tax documents
           </strong>
@@ -156,7 +156,8 @@ const DescriptionTab = () => {
         </p>
         <p>&nbsp;</p>
         <p>
-          The <strong>Dividend OCR</strong> service is an essential tool for{" "}
+          The <strong>Dividend (Form 1099-DIV)</strong> service is an essential
+          tool for{" "}
           <strong>financial institutions, businesses, and investors</strong>{" "}
           looking to automate tax document processing,{" "}
           <strong>enhance compliance, and improve financial accuracy</strong>.

@@ -8,7 +8,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-const dividentTranslations = {
+const dividendTranslations = {
   id_type: "Document Type",
   filer_name: "Filer Name",
   filer_tin: "Filer TIN (Taxpayer Identification Number)",
@@ -92,11 +92,11 @@ const defaultData = {
   id_type: "",
 };
 
-export default function WagesTable({ data = defaultData }) {
+export default function DividendTable({ data = defaultData }) {
   return (
     <Card className="w-full shadow-none border-0">
       <CardHeader>
-        <CardTitle>Divident OCR Details</CardTitle>
+        <CardTitle>Dividend (Form 1099-DIV) Details</CardTitle>
       </CardHeader>
       <CardContent>
         <Table className="border border-gray-300 rounded-lg w-full">
@@ -104,7 +104,7 @@ export default function WagesTable({ data = defaultData }) {
             {Object.entries(data).map(([key, value]) => (
               <TableRow key={key} className="border-b">
                 <TableCell className="font-semibold border-r border-gray-300 w-1/3 whitespace-nowrap">
-                  {dividentTranslations[key] || key}
+                  {dividendTranslations[key] || key}
                 </TableCell>
                 <TableCell className="whitespace-normal break-words">
                   {value}

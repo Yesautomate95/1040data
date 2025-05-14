@@ -21,7 +21,7 @@ export default function TestEnvironmentTab() {
   const handleUpload = async () => {
     console.log("Uploading files...");
     if (!file) {
-      toast.error("Please select an Interest OCR image");
+      toast.error("Please select an Interest (Form 1099-INT) image");
       return;
     }
 
@@ -65,7 +65,7 @@ export default function TestEnvironmentTab() {
     <div className="flex justify-between   p-4">
       <Card className="w-full max-w-lg shadow-none border-0">
         <CardHeader>
-          <CardTitle>Upload Interest OCR</CardTitle>
+          <CardTitle>Upload Interest (Form 1099-INT)</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           <div>

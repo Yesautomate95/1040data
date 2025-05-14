@@ -6,7 +6,7 @@ import TestEnvironmentTab from "@/components/services/interest-ocr/TestEnvironme
 const PANCardOCR = () => {
   return (
     <div className="p-8 w-full ">
-      <div className="text-2xl font-bold mb-4">Interest OCR </div>
+      <div className="text-2xl font-bold mb-4">Interest (Form 1099-INT) </div>
 
       <Tabs defaultValue="description">
         <TabsList>

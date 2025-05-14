@@ -5,12 +5,12 @@ const DescriptionTab = () => {
     <div className="mt-6">
       <div className="mb-3">
         <p>
-          The <strong>Interest OCR</strong> service is a specialized solution
-          designed to extract and verify financial data related to interest
-          income, tax deductions, and investment-related details. This efficient
-          service automates the capture of critical interest-related data from
-          financial documents, ensuring accuracy and compliance with tax
-          regulations. By transforming unstructured financial data into
+          The <strong>Interest (Form 1099-INT)</strong> service is a specialized
+          solution designed to extract and verify financial data related to
+          interest income, tax deductions, and investment-related details. This
+          efficient service automates the capture of critical interest-related
+          data from financial documents, ensuring accuracy and compliance with
+          tax regulations. By transforming unstructured financial data into
           structured formats, it facilitates seamless integration with financial
           and accounting systems.
         </p>
@@ -179,12 +179,12 @@ const DescriptionTab = () => {
         <p>&nbsp;</p>
         <h3>Conclusion</h3>
         <p>
-          The <strong>Interest OCR</strong> service is an invaluable tool for
-          financial institutions, tax professionals, and businesses seeking to
-          automate the extraction of interest-related data, ensure compliance,
-          and improve financial processing. By enhancing data accuracy and
-          operational efficiency, this service supports businesses in achieving
-          their financial and regulatory objectives.
+          The <strong>Interest (Form 1099-INT)</strong> service is an invaluable
+          tool for financial institutions, tax professionals, and businesses
+          seeking to automate the extraction of interest-related data, ensure
+          compliance, and improve financial processing. By enhancing data
+          accuracy and operational efficiency, this service supports businesses
+          in achieving their financial and regulatory objectives.
         </p>
       </div>
     </div>

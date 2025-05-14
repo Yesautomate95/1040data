@@ -51,7 +51,7 @@ export default function InterstTable({ data = defaultData }) {
   return (
     <Card className="w-full shadow-none border-0">
       <CardHeader>
-        <CardTitle>Interest OCR Details</CardTitle>
+        <CardTitle>Interest (Form 1099-INT) Details</CardTitle>
       </CardHeader>
       <CardContent>
         <Table className="border border-gray-300 rounded-lg w-full">

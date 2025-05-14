@@ -27,16 +27,16 @@ const data = {
 
       items: [
         {
-          title: "Wages OCR",
+          title: "Wages (Form W2)",
           url: "/services/wages-ocr",
         },
         {
-          title: "Interest OCR",
+          title: "Interest (Form 1099-INT)",
           url: "/services/interest-ocr",
         },
         {
-          title: "Divident OCR",
-          url: "/services/divident-ocr",
+          title: "Dividend (Form 1099-DIV)",
+          url: "/services/dividend-ocr",
         },
       ],
     },

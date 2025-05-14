@@ -60,7 +60,7 @@ export default function WagesTable({ data = defaultData }) {
   return (
     <Card className="w-full shadow-none border-0">
       <CardHeader>
-        <CardTitle>Wages OCR Details</CardTitle>
+        <CardTitle>Wages (Form W2) Details</CardTitle>
       </CardHeader>
       <CardContent>
         <Table className="border border-gray-300 rounded-lg w-full">

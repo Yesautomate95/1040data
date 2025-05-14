@@ -5,9 +5,9 @@ const DescriptionTab = () => {
     <div className="mt-6">
       <div className="mb-3">
         <p>
-          The <strong>Wages OCR service</strong> is a powerful solution designed
-          to extract and validate wage-related financial data from tax and
-          employment documents such as W-2 forms. This intelligent service
+          The <strong>Wages (Form W2) service</strong> is a powerful solution
+          designed to extract and validate wage-related financial data from tax
+          and employment documents such as W-2 forms. This intelligent service
           automates the capture of critical wage and tax information, ensuring
           high accuracy, streamlined workflows, and compliance with regulatory
           requirements. By converting unstructured wage data into structured

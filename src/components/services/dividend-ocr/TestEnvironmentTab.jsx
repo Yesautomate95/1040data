@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
-import WagesTable from "./DividentTable";
+import WagesTable from "./DividendTable";
 
 import ComparisonView from "@/components/ComparisonView/ComparisonView";
 
@@ -21,7 +21,7 @@ export default function TestEnvironmentTab() {
   const handleUpload = async () => {
     console.log("Uploading files...");
     if (!file) {
-      toast.error("Please select a divident OCR image");
+      toast.error("Please select a Dividend (Form 1099-DIV) image");
       return;
     }
 
@@ -33,7 +33,7 @@ export default function TestEnvironmentTab() {
     setLoading(true);
 
     try {
-      const res = await fetch("/api/services/divident-ocr", {
+      const res = await fetch("/api/services/dividend-ocr", {
         method: "POST",
         body: formData,
       });
@@ -65,7 +65,7 @@ export default function TestEnvironmentTab() {
     <div className="flex justify-between   p-4">
       <Card className="w-full max-w-lg shadow-none border-0">
         <CardHeader>
-          <CardTitle>Upload Divident OCR</CardTitle>
+          <CardTitle>Upload Dividend (Form 1099-DIV)</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           <div>
